@@ -119,6 +119,7 @@ footer{
             color: #fff;
             font-size: 15px;
             font-weight: 600;
+            font-family: 'Roboto', sans-serif;
             cursor: pointer;
             &:hover{
                 background-color: rgba(#fff, 0.2);

@@ -16,6 +16,7 @@ export default {
 
 <style lang="scss" scoped>
     div{
+        height: 270px;
         flex-basis: calc(100% / 6 - 19px);
         transition: transform .5s;
         &:hover{
@@ -30,7 +31,6 @@ export default {
             color: #fff;
             font-size: 14px;
             margin-top: 10px;
-            margin-bottom: 40px;
             cursor: pointer;   
         }
     }
