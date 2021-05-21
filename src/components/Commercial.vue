@@ -54,6 +54,7 @@ export default {
         .wrap{
             justify-content: space-around;
             div{
+                padding-right: 1rem;
                 &:hover{
                     background-color: rgba(#fff, .3);
                 }
