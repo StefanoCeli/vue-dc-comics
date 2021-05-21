@@ -1,7 +1,7 @@
 <template>
   <div>
       <a href="#" class="image"><img :src="card.thumb" :alt="card.type"></a>
-      <h4>{{ card.series.toUpperCase() }}</h4>
+      <h2>{{ card.series.toUpperCase() }}</h2>
   </div>
 </template>
 
@@ -16,7 +16,6 @@ export default {
 
 <style lang="scss" scoped>
     div{
-        height: 250px;
         flex-basis: calc(100% / 6 - 19px);
         transition: transform .5s;
         &:hover{
@@ -27,12 +26,12 @@ export default {
             height: 200px;
             overflow: hidden;  
         }
-        h4{
+        h2{
             color: #fff;
             font-size: 14px;
             margin-top: 10px;
-            cursor: pointer;
-            
+            margin-bottom: 40px;
+            cursor: pointer;   
         }
     }
 </style>

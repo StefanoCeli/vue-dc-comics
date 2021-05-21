@@ -6,17 +6,20 @@
           :card="comic"
            />
       </div>
+      <LoadBtn />
   </main>
 </template>
 
 <script>
 import Card from './Card.vue'
 import comics from '../assets/data/dc-comics'
+import LoadBtn from './LoadBtn.vue'
 
 export default {
     name:'Main',
     components:{
-        Card
+        Card,
+        LoadBtn
     },
     data(){
         return {
@@ -27,12 +30,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 main{
     padding: 50px 0;
     background-color: #1c1c1c;
     .wrap{
         flex-wrap: wrap;
-    }
+    }   
 }
 
 
