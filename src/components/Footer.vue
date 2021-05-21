@@ -47,7 +47,6 @@
                       </ul>
                   </div>
               </div>
-              <img src="../assets/img/dc-logo-bg.png" alt="">
           </div>
       </section>
       <section class="footer-bot">
@@ -86,25 +85,28 @@ footer{
         overflow: hidden;
         .wrap{
             height: 100%;
+            background-image: url('../assets/img/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: right;
             .menu-footer{
                 display: flex;
                 div{
                     padding-right: 2rem;
                 }
-            }
-            h3{
+                }
+                h3{
                 color:#fff;
                 margin: 1rem 0;
-            }
-            a{
+                }
+                a{
                 display: inline-block;
                 color: rgba(#fff, .4);
                 font-size: 13px;
                 margin-bottom: 0.50rem;
                 &:hover{
                     color: #fff;
+                 }
                 }
-            }
         }
     }
     .footer-bot{

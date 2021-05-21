@@ -54,6 +54,9 @@ export default {
         .wrap{
             justify-content: space-around;
             div{
+                &:hover{
+                    background-color: rgba(#fff, .3);
+                }
                 &:last-child img{
                     width: 60px;
                 }
