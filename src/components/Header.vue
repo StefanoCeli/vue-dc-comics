@@ -8,12 +8,18 @@
             ><a :class="{active: link.current}" href="#">{{link.text}}</a></li>
         </ul>   
       </nav>
+      <Jumbotron />
   </header>
 </template>
 
 <script>
+import Jumbotron from './Jumbotron.vue'
+
 export default {
 name:'Header',
+components:{
+  Jumbotron
+},
     data(){
       return{
         links:[

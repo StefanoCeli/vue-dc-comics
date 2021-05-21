@@ -55,8 +55,9 @@ export default {
             justify-content: space-around;
             div{
                 padding-right: 1rem;
+                transition: transform 0.4s;
                 &:hover{
-                    background-color: rgba(#fff, .3);
+                    transform: scale(1.1);
                 }
                 &:last-child img{
                     width: 60px;
