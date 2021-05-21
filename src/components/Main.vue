@@ -1,16 +1,27 @@
 <template>
   <main>
-      <div class="wrap"><h1> {{ istruzioni }} </h1></div>
+      <div class="wrap">
+          <Card
+          v-for="( comic, index ) in comics" :key="index"
+          :card="comic"
+           />
+      </div>
   </main>
 </template>
 
 <script>
+import Card from './Card.vue'
+import comics from '../assets/data/dc-comics'
+
 export default {
     name:'Main',
+    components:{
+        Card
+    },
     data(){
-        return{
-            istruzioni:"-->CONTENT GOES HERE<--"
-        }
+        return {
+            comics
+            }
     }
 }
 </script>
@@ -19,9 +30,8 @@ export default {
 main{
     padding: 50px 0;
     background-color: #1c1c1c;
-    h1{
-        color: #fff;
-        font-size: 22px;
+    .wrap{
+        flex-wrap: wrap;
     }
 }
 

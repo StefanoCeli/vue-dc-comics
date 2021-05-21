@@ -30,7 +30,7 @@ export default[
     "type": "comic book"
   },
   {
-    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/BM_56_300-001_HD_5ba137a85c3bf3.33122291.jpg?itok=3FHJQYJZ",
+    "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2019/05/BMB_31_300-001_HD_5ccb6fc36adf47.28655389.jpg?itok=YjOgHLIf",
     "price": "$2.99",
     "series": "Batman Beyond",
     "type": "comic book"
